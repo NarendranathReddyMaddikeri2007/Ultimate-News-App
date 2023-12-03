@@ -1,6 +1,6 @@
 # MNR News App 📰
 
-![MNR News App Logo]([link_to_your_logo.png](https://drive.google.com/file/d/19W_2cWcftP_L6r09zp0gqZ3R52cPV1tC/view?usp=sharing))
+![Uploading news_app_gif1.gif…]()
 
 MNR News App is a simple yet powerful news application built with Kotlin, Firebase, and API data. It provides users with the latest news, highlights hot topics, and allows users to view detailed information about each news article. Additionally, users can open a web page window to read the full content of a news article.
 
