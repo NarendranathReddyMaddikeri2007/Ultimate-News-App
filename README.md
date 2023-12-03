@@ -1,14 +1,25 @@
 # MNR News App 📰
 
 <br>
-# News App Gif1📰
-![news_app_gif1](https://github.com/NarendranathReddyMaddikeri2007/Ultimate-News-App/assets/93245481/e75fc136-8149-425e-bd04-d7f5243c812b)
+<table>
+  <tr>
+    <td align="center">
+      <a href="GIF1_LINK">
+        <img src="https://github.com/NarendranathReddyMaddikeri2007/Ultimate-News-App/assets/93245481/e75fc136-8149-425e-bd04-d7f5243c812b" alt="News App Gif1" style="width:100%">
+      </a>
+      <br>
+      <sub><b>News App Gif1📰</b></sub>
+    </td>
+    <td align="center">
+      <a href="GIF2_LINK">
+        <img src="https://github.com/NarendranathReddyMaddikeri2007/Ultimate-News-App/assets/93245481/9a788240-b06c-4e89-a424-5b5dd09141c1" alt="News App Gif2" style="width:100%">
+      </a>
+      <br>
+      <sub><b>News App Gif2📰</b></sub>
+    </td>
+  </tr>
+</table>
 
-<br>
-#News App Gif2📰
-![news_app_gif2](https://github.com/NarendranathReddyMaddikeri2007/Ultimate-News-App/assets/93245481/9a788240-b06c-4e89-a424-5b5dd09141c1)
-
-<br>
 
 MNR News App is a simple yet powerful news application built with Kotlin, Firebase, and API data. It provides users with the latest news, highlights hot topics, and allows users to view detailed information about each news article. Additionally, users can open a web page window to read the full content of a news article.
 
