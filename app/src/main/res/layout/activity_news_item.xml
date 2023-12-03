@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.NewsItemActivity">
+
+    <ImageView
+        android:id="@+id/imageView_activity_news_item"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/image_style"
+        android:elevation="5dp"
+        android:scaleType="fitXY" />
+
+
+    <ImageButton
+        android:id="@+id/shareButton_activity_news_item"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imageView_activity_news_item"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="-25dp"
+        android:background="@drawable/image_style2"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:focusable="true"
+        android:src="@drawable/baseline_share_24" />
+
+    <ImageButton
+        android:id="@+id/webpageButton_activity_news_item"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imageView_activity_news_item"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="-25dp"
+        android:layout_toLeftOf="@+id/shareButton_activity_news_item"
+        android:background="@drawable/image_style2"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:focusable="true"
+        android:src="@drawable/baseline_web_24" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/newsAuthor_activity_news_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Material3.Button.TextButton.Icon"
+        android:layout_above="@+id/dateCreated_activity_news_item"
+        android:layout_centerHorizontal="true"
+        android:gravity="end"
+        android:padding="5dp"
+        android:text="News Author"
+        android:textStyle="bold"
+        android:textColor="@color/dark11"
+        app:icon="@drawable/baseline_person_24"
+        android:textSize="20sp"
+        android:fontFamily="@font/heebo_extrabold"
+        app:iconPadding="8dp"
+        app:iconSize="30dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/newsTitle_activity_news_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/webpageButton_activity_news_item"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="5dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="NEWS TITLE"
+        android:textColor="@color/dark13"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/chonburi" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dateCreated_activity_news_item"
+        style="@style/Widget.Material3.Button.TextButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="@font/heebo_extrabold"
+        android:padding="8dp"
+        android:text="date created"
+        android:textColor="@color/dark11"
+        android:textSize="16sp"
+        app:icon="@drawable/baseline_access_time_24"
+        app:iconPadding="8dp"
+        app:iconSize="30dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/description_activity_news_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newsTitle_activity_news_item"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:text="NEWS DESCRIPTION"
+        android:textColor="@color/dark8"
+        android:textSize="16sp"
+        app:fontFamily="@font/heebo_medium" />
+
+</RelativeLayout>

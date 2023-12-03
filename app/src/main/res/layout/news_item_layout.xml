@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardMaxElevation="20dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/materialCardView_news_item_layout"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_news_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imageView_news_item_layout"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/image_style3"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:elevation="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/newsTitle_news_item_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView_news_item_layout"
+            android:fontFamily="@font/bree_serif"
+            android:padding="5dp"
+            android:text="NEWS TITLE"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_below="@+id/newsPublishedDate_news_item_layout"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/newsPublishedDate_news_item_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.Button.TextButton.Icon"
+            android:text="PUBLISHED DATE"
+            app:icon="@drawable/baseline_access_time_24"
+            android:textColor="@color/black"
+            app:iconSize="20dp"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/imageView_news_item_layout"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:id="@+id/newsAuthor_news_item_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="author"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:elevation="10dp"
+            android:background="@drawable/gradient_color1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

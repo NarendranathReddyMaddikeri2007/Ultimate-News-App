@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bree_serif</item>
+        <item>@font/chonburi</item>
+        <item>@font/heebo_bold</item>
+        <item>@font/heebo_extrabold</item>
+        <item>@font/heebo_medium</item>
+        <item>@font/oleo_script</item>
+    </array>
+</resources>
