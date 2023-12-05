@@ -1,7 +1,7 @@
 ## MNR News App 📰
 
 <br>
-## Project Screenshots and Gifs
+# Project Screenshots and Gifs
 
 | Home Page (Gif)          | Sorting News (Gif)         |
 |---------------------------|----------------------------|
